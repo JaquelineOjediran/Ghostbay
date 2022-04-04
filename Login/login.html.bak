@@ -1,0 +1,47 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carteira</title>
+    <link rel="stylesheet" href="login.css" type="text/css">
+   </head>
+   <body>
+   <main>
+        <header class="navlogo">
+            <img id="logo" src="imagens/logo1.png">
+            <button class="botaoc">  <a href="/Login/login.html"> Conectar Carteira </a> </button>
+        </header>
+
+        <section class="teste"> 
+            <h1> Minha Carteira </h1>
+            <p>Conecte com um de nossos provedores de carteira ou crie uma nova conta agora.</p>
+        </section>
+
+        <section class="container">
+            <div class="login-options">
+                <div class="login metamask">
+                    <img src="imagens/metamask.png" alt="icone do metamask">
+                    <p>Metamask</p>
+                </div>
+                <div class="login coinbase">
+                    <img src="imagens/coinbase.png" alt="icone do metamask">
+                    <p>Coinbase Wallet</p>
+                </div>
+                <div class="login wallet">
+                    <img src="imagens/wallet.png" alt="icone do metamask">
+                    <p>Wallet Connect</p>
+                </div>
+                <div class="login fortmatic">
+                    <img src="imagens/fortmatic.png" alt="icone do metamask">
+                    <p>Fortmatic</p>
+                 </div>
+				  <div class="login outros">
+                  <p>Mostrar mais opções</p>
+                 </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

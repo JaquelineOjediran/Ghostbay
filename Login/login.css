@@ -1,0 +1,192 @@
+/*CSS RESET */
+
+/*CSS RESET */
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+
+body {
+  background: #161A26;
+  margin: 2%;
+}
+
+@font-face {
+  font-family: Riviera;
+  src: url(../fonts/Riviera.otf);
+}
+
+@font-face {
+  font-family: Azonix;
+  src: url(../fonts/Azonix.otf)
+}
+
+
+.navlogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.navlogo a {
+  color: #161A26;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+.navlogo img {
+  margin-top: 15px;
+  width: 60.31px;
+  height: 86.35px;
+  left: 69.69px;
+  top: 36.93px;
+
+
+}
+
+.botaoc {
+  width: 188.12px;
+  height: 50.65px;
+  background: #D0D5F2;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  margin-right: 2px;
+}
+
+#logo {
+  width: 60px;
+  height: 86px
+}
+
+.teste h1 {
+  color: #D0D5F2;
+  margin-top: 2%;
+ 
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 48px;
+color: #D0D5F2;
+}
+
+.teste p {
+  color: #D0D5F2;
+  margin-top: 0.9%;
+  width:400px;
+height: 76.25px;
+left: 110.56px;
+top: 324.06px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+
+color: rgba(208, 213, 242, 0.56);
+}
+
+.container {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.botaoc{
+  font-family: 'Lato';
+}
+.login-options {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40%;
+  background-color: #D0D5F2;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: BOLD;
+font-size: 20px;
+
+
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5%;
+  border-bottom: 2px solid black;
+}
+
+.login:hover {
+  background-color: #e9ebf7;
+border-radius: 15px 15px 0 0 ;
+}
+
+.outros {
+  justify-content: center;
+  font-weight: bold;
+}
+
+.login img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width:900px) {
+
+    
+  
+
+  
+.teste h1 {
+  font-size: 25px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  }
+
+  .teste p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+ 
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .botaoc {
+    display: none;
+
+}
+
+
+
+.login-options {
+  
+  width: 100%;
+  
+
+
+
+}
+
+
+
+
+}

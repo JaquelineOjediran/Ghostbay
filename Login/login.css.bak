@@ -1,0 +1,91 @@
+/*CSS RESET */
+
+/*CSS RESET */
+
+*{
+margin:0;
+border:0;
+padding:0;
+}
+
+main{
+    width:100%;
+    height:auto;
+}
+
+
+body{
+  background: #161A26;
+  margin: 2%;
+}
+
+.navlogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.navlogo a
+{color: #161A26;
+ text-decoration: none;
+ font-size: 15px;
+ text-align: center;
+}
+.navlogo img{
+   margin-top: 15px; 
+}
+.botaoc{
+    width: 188.12px;
+    height: 50.65px;
+    background:#D0D5F2;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin-right: 2px;
+}
+
+#logo {
+  width: 60px;
+  height: 86px
+}
+
+ .teste h1{
+   color: #D0D5F2;
+   margin-top: 5%;
+}
+
+.teste p {
+  color: #D0D5F2;
+  margin-top: 2%;
+}
+
+.container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-options {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40%;
+  background-color: #D0D5F2;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5%;
+  border-bottom: 2px solid black;
+}
+
+.outros {
+	justify-content:center;
+	font-weight: bold;
+}
+
+.login img {
+  width: 50px;
+  height: 50px;
+}

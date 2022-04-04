@@ -1,0 +1,1091 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Riviera;
+    src: url(../fonts/Riviera.otf);
+}
+
+@font-face {
+    font-family: Azonix;
+    src: url(../fonts/Azonix.otf)
+}
+
+body {
+    background-color: #171B27;
+}
+
+
+main {
+    height: 100vh;
+    width: 100%;
+}
+
+/* cabeçalho mobile e tablet  */
+
+#nav {
+    display: none;
+
+}
+
+#nav a {
+    color: #D0D5F2;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#nav a:hover {
+    background: #D0D5F2;
+    color: #D0D5F2;
+}
+
+#header {
+    margin-top: 20px;
+    float: right;
+}
+
+#menu-mob button{
+    color: #D0D5F2;
+    background: #D0D5F2;
+    color: #D0D5F2;
+}
+
+#menu-mob {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    display: none;
+    background-color: #D0D5F2;
+    color: #D0D5F2;
+
+}
+
+
+
+#menu-mob a {
+    display: block;
+    padding: 0.5rem;
+    color:#D0D5F2;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+
+
+/* cabeçalho */
+#menu-mobile img {
+    margin: 20px;
+
+}
+
+#menu-mobile {
+    display: none;
+    display: grid;
+    align-items: center;
+color: #D0D5F2;
+background-color: #D0D5F2;
+
+}
+
+#btn-mobile {
+    display: none;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#cabecalho {
+    width: 100%;
+    height: 0px;
+}
+
+.logo-home {
+    margin-top: 10px;
+
+    margin-left: 1%;
+}
+
+.ghost-name {
+    position: relative;
+    font-family: 'Riviera';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.52em;
+    color: #171B27;
+    margin: 0 auto;
+    bottom: 95px;
+}
+
+.artistas a {
+    color: #D0D5F2;
+}
+
+.artistas {
+    font-family: 'Baloo 2';
+    float: right;
+    text-align: center;
+    bottom: 80px;
+    right: 7%;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    font-family: 'Baloo Tammudu 2';
+}
+
+.inicio a {
+    color: #D0D5F2;
+}
+
+.inicio {
+    font-family: 'Baloo 2';
+    float: right;
+    text-align: center;
+    bottom: 80px;
+    position: relative;
+    font-style: normal;
+    right: 5%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #D0D5F2;
+    font-family: 'Baloo Tammudu 2';
+}
+
+.texto-button {
+    font-family: 'Baloo Tammudu 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 33px;
+    color: #171B27;
+}
+
+.botao-carteira {
+    float: right;
+    position: relative;
+    bottom: 85px;
+    right: 3%;
+    width: 84.07px;
+    height: 24.06px;
+    background: linear-gradient(90deg, #B629F2 -67.86%, #D0D5F2 102.89%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#foto-fundo {
+    background: url('../img/Background-capa.png');
+    width: 100%;
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.texto-luta h1 {
+    font-family: 'Riviera';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 0.52em;
+    color: #D0D5F2;
+    display: block;
+    margin: auto;
+    padding-top: 350px;
+}
+
+.texto-luta p {
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #D0D5F2;
+
+}
+
+.texto-teste h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: riviera;
+    font-weight: 500;
+    color: #D0D5F2;
+    margin-top: -50%;
+}
+
+.texto-teste p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 50px;
+    color: #D0D5F2;
+}
+
+.img-luta {
+    position: relative; 
+    float: right;
+    width: 40%;
+    width:550px;
+    margin-top: -300px;
+
+}
+
+.fight {
+    color: #B629F2;
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    color: #B629F2;
+    text-shadow: 0px 0px 20px #B629F2;
+}
+
+.caixa-texto2 {
+    position: relative;
+    text-align: left;
+}
+
+.caixa-texto2 h1 {
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #D0D5F2;
+}
+
+.caixa-texto2 p {
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #D0D5F2;
+}
+
+hr {
+    text-align: left;
+    margin-left: 10%;
+    background-color: #B629F2;
+    width: 40%;
+    height: 20px;
+    box-shadow: 0px 0px 20px #B629F2;
+}
+
+.texto-poder {
+    color: #B629F2;
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 55px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0px 0px 20px #B629F2;
+}
+
+.hr-poder {
+    background-color: #B629F2;
+    width: 50%;
+    box-shadow: 0px 0px 20px #B629F2;
+    display: block;
+    margin: auto;
+}
+
+.raridade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.raridade img {
+    margin-top: 10%;
+    width: 90%
+}
+
+/* footer */
+
+#footer-all {
+    background: #2A2873;
+    width: 100%;
+    height: 629px;
+
+}
+
+.texto-requisitos {
+    margin-top: -23.11%;
+}
+
+.texto-requisitos h1 {
+    color: #B629F2;
+    position: relative;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 15%;
+    font-size: 50px;
+    padding-top: 2%;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0px 0px 20px #B629F2;
+}
+
+.texto-requisitos hr {
+    width:250px;
+    position: relative;
+    float: left;
+    margin:  30px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px #B629F2
+}
+
+.texto-requisitos p {
+    position: relative;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #D0D5F2;
+}
+
+.btn {
+    width: 334.71px;
+    height: 58.16px; 
+    background: #B629F2;
+    box-shadow: 0px 0px 20px #B629F2;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    color: #fff;
+
+
+}
+.btn p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+     color: #D0D5F2;
+    text-shadow: 0px 0px 20px #B629F2;
+}
+
+.background-grego {
+    position: relative;
+    float: right;
+    width: 306.23px;
+    margin-top: -130px;
+    }
+
+.newsletters {
+    padding-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #D0D5F2;
+    margin-left:30px;
+}
+
+.texto-newsletters {
+    width: 190.52px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.05em;
+    color: #D0D5F2;
+    margin-left: 30px;
+}
+
+.button-incricao {
+    position: relative;
+    background-color: #2A2873;
+    border: 1px #D0D5F2 solid;
+    border-radius: 20px;
+    margin-top: 1%;
+    width: 147.58px;
+    height: 48.12px;
+    border: 1px solid #D0D5F2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    right: 100px;
+}
+
+.button-incricao a {
+    color: #D0D5F2;
+    background: #2A2873;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #D0D5F2;
+}
+
+.logo-lilas {
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#inicio-home-footer {
+    position: relative;
+    top: -410px;
+    clear: both;
+    padding-top: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D0D5F2;
+    margin: 0;
+}
+
+.button-meta {
+    border: 1px solid #D0D5F2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #D0D5F2;
+    width: 147.58px;
+    height: 48.12px;
+    background-color: #2A2873;
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+  top: -100px;
+  clear: both;
+   
+}
+
+.button-meta a {
+    color: #fff;
+  
+}
+
+#social {
+    position: relative;
+    top: 110px;
+    float: right;
+    left: 200px;
+    }
+
+
+#social img {
+    padding: 4px;
+    margin-left: 10px;
+    margin-top: 10%;
+}
+
+@media (min-width:481px) {
+    @media (max-width:1100px) {
+
+        #header img{           display: block;}
+
+        #menu-mob img{
+                                display: block;
+                                margin: 0;
+                                padding: 0;
+                                margin: auto;
+                                text-align: center;
+                                margin-top: 20px;
+                                color: #D0D5F2;}
+
+        #menu-mob a{            color: #D0D5F2;}    
+
+        #nav{                   display: block;}
+
+         #cabecalho {           display: none;}
+
+        #menu-mob {
+                                display: block;
+                                position: absolute;
+                                width: 100%;
+                                top: 70px;
+                                right: 0px;
+                                background: #161A26;
+                                transition: 0.6s;
+                                z-index: 1000;
+                                height: 0px;
+                                visibility: hidden;
+                                overflow-y: hidden;}
+
+        #nav.active #menu-mob{
+                                height: calc(50vh - 70px);
+                                visibility: visible;
+                                overflow-y: auto;}
+
+        #menu-mob a{
+                                padding: 1rem 0;
+                                margin: 0 1rem;
+                                border-bottom: 2px solid rgba(0, 0, 0, 0.05);}
+
+        #btn-mobile {
+                                display: flex;
+                                padding: 0.5rem 1rem;
+                                font-size: 1rem;
+                                border: none;
+                                background: none;
+                                cursor: pointer;
+                                gap: 0.5rem;}
+
+        #hamburger{
+                                border-top: 2px solid;
+                                width: 20px;
+                            background-color: #D0D5F2;}
+
+        #hamburger::after,
+        #hamburger::before{
+                                content: '';
+                                display: block;
+                                width: 20px;
+                                height: 2px;
+                                background: currentColor;
+                                margin-top: 5px;
+                                transition: 0.3s;
+                                position: relative;}
+
+        #nav.active #hamburger{ border-top-color: transparent;}
+
+        #nav.active #hamburger::before {
+                                transform: rotate(135deg);}
+
+        #nav.active #hamburger::after {
+                                transform: rotate(-135deg);
+                                top: -7px;}
+
+        .texto-luta h1{
+                                margin: 0;
+                                display: block;
+                                margin: auto;
+                                padding: 0;
+                                width: 100%;
+                                line-height: auto;
+                                font-size: 30px;
+                                padding-top: 100px;}
+
+        .texto-luta p{
+                                margin-top: -15px;
+                                font-size: 20px;}
+
+        .texto-teste h1{
+                                text-align: center;
+                                font-size: 25px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;}
+
+        .texto-teste p{
+                                font-size: 15px;
+                                margin-top: -45px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;}
+
+        .fight{
+                                text-align: center;
+                                font-size: 25px;
+                                margin-left: -0%;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .caixa-texto2 h1{
+                                text-align: center;
+                                font-size: 25px;
+                                margin-left: -0%;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .caixa-texto2 p{
+                                text-align: center;
+                                font-size: 13px;
+                                margin-left: -0%;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        hr{
+                                margin-top: 20px;
+                                height: 10px;
+                                margin: auto;
+                                margin-left: 30%;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .img-luta{
+                                position: relative; 
+                                clear: both;
+                                margin-left: 0%;
+                                margin-right:25%;
+                                width: 50%;
+                                margin-top: 10px;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .texto-poder{
+                                font-size: 20px;
+                                align-items: center;
+                                justify-content: center;}
+
+        .hr-poder{
+                                width: 50%;
+                                display: block;
+                                margin: auto;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .raridade img{
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 450px;
+                                margin-top: 12px;}
+
+        #footer-all{
+                                margin-top: 15.7%;
+                                height: auto;}
+
+        .btn{
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;
+                                margin-left: 35%;
+                                width: 30%;}
+        .btn p{
+                                font-size: 20px;
+        }                        
+
+        .background-grego {     display: none;}
+
+
+        .newsletters{
+                                position: relative;
+                                font-size: 20px;
+                                line-height: 48px;
+                                margin: 0;
+                                padding: 0;
+                                display: grid;
+                                justify-content: center;
+                                align-items: center;
+                                top: 50px;
+                                text-align: center;}
+
+        .texto-newsletters{
+                                font-size: px;
+                                margin: 0;
+                                padding: 10px;
+                                margin: auto;
+                                text-align: center;
+                                margin-top: 50px;}
+
+        .button-incricao{
+                                margin-left: 55%;
+                                text-align: center;
+                                margin-top: 20px;
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;}
+
+        .logo-lilas{
+                                display: grid;
+                                align-items: center;
+                                justify-content: right;
+                                margin-top: 100px;}
+
+        #inicio-home-footer{
+                                top: -500px;
+                                clear: both;
+                                padding-top: 50px;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 30px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .button-meta{
+                                position: relative;
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;
+                                top: -130px;
+                                left: -1%;}
+
+        .texto-requisitos h1{
+                                font-size: 25px;
+                                align-items: center;
+                                text-align: center;
+                                display: flex;
+                                margin-left: -20px;
+                                justify-content: center;}
+
+        .texto-requisitos p{
+                                margin-bottom: 30px;
+                                font-size: 15px;
+                                align-items: center;
+                                text-align: center;
+                                display: flex;
+                                margin-left: -20px;
+                                justify-content: center;}
+
+        .texto-requisitos hr{
+                                margin-top: 20px;
+                                height: 5px;
+                                margin: auto;
+                                margin-left: 25%;
+                                display:flex;
+                                text-align: center;
+                                justify-content: center;
+                                align-items: center;}
+
+        #social {
+                                position: relative;
+                                top: -90px;
+                                left: -30px;
+                                display: flex;
+                                float: right;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin-left: 10px;}                        
+
+    }}
+
+
+    @media (max-width:480px) {
+
+        #header img{           display: block;}
+
+        #menu-mob img{
+                                display: block;
+                                margin: 0;
+                                padding: 0;
+                                margin: auto;
+                                text-align: center;
+                                margin-top: 20px;
+                                color: #D0D5F2;}
+
+        #menu-mob a{            color: #D0D5F2;}    
+
+        #nav{                   display: block;}
+
+         #cabecalho {           display: none;}
+
+        #menu-mob {
+                                display: block;
+                                position: absolute;
+                                width: 100%;
+                                top: 70px;
+                                right: 0px;
+                                background: #161A26;
+                                transition: 0.6s;
+                                z-index: 1000;
+                                height: 0px;
+                                visibility: hidden;
+                                overflow-y: hidden;}
+
+        #nav.active #menu-mob{
+                                height: calc(50vh - 70px);
+                                visibility: visible;
+                                overflow-y: auto;}
+
+        #menu-mob a{
+                                padding: 1rem 0;
+                                margin: 0 1rem;
+                                border-bottom: 2px solid rgba(0, 0, 0, 0.05);}
+
+        #btn-mobile {
+                                display: flex;
+                                padding: 0.5rem 1rem;
+                                font-size: 1rem;
+                                border: none;
+                                background: none;
+                                cursor: pointer;
+                                gap: 0.5rem;}
+
+        #hamburger{
+                                border-top: 2px solid;
+                                width: 20px;}
+
+        #hamburger::after,
+        #hamburger::before{
+                                content: '';
+                                display: block;
+                                width: 20px;
+                                height: 2px;
+                                background: currentColor;
+                                margin-top: 5px;
+                                transition: 0.3s;
+                                position: relative;}
+
+        #nav.active #hamburger{ border-top-color: transparent;}
+
+        #nav.active #hamburger::before {
+                                transform: rotate(135deg);}
+
+        #nav.active #hamburger::after {
+                                transform: rotate(-135deg);
+                                top: -7px;}
+
+        .texto-luta h1{
+                                text-align: center;
+                                margin-left: 10%;
+                                display: block;
+                                margin: auto;
+                                padding: 0;
+                                font-size: 15px;
+                                padding-top: 60px;}
+
+        .texto-luta p{
+                                margin-top: -15px;
+                                font-size: 13px;}
+
+        .texto-teste h1{
+                                text-align: center;
+                                font-size: 15px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding-top: 25px;}
+
+        .texto-teste p{
+                                font-size: 10px;
+                                margin-top: -45px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;}
+
+        .fight{
+                                text-align: center;
+                                font-size: 15px;
+                                margin-left: -0%;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .caixa-texto2 h1{
+                                text-align: center;
+                                font-size: 15px;
+                                margin-left: -0%;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .caixa-texto2 p{
+                                text-align: center;
+                                font-size: 10px;
+                                margin-left: -0%;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        hr{
+                                visibility: hidden;
+                                margin-top: 20px;
+                                height: 3px;
+                                margin: auto;
+                                margin-left: 30%;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .img-luta{
+                                position: relative; 
+                                clear: both;
+                                margin-left: 0%;
+                                margin-right:15%;
+                                width: 70%;
+                                margin-top: 10px;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .texto-poder{
+                                font-size: 15px;
+                                align-items: center;
+                                padding-top:10%;
+                                justify-content: center;
+                                margin-top: 145px;
+                            }
+
+        .hr-poder{
+                                width: 50%;
+                                display: block;
+                                margin: auto;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .raridade img{
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 80%;
+                                margin-top: 1px;}
+
+        #footer-all{
+                                margin-top: 10%;
+                                height: auto;}
+
+       #social {
+                                position: relative;
+                                top: 40px;
+                                left: -80px;
+                                display: flex;
+                                float: right;
+                                flex-direction: row;
+                                justify-content: center;
+                                align-items: center;}
+
+        #social img{
+                                width: 50%;
+        }
+
+        .btn{
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;
+                                height: 5%;
+                                width: 100px;}
+
+        .btn p{                 font-size: 20px;}                        
+
+        .background-grego {     display: none;}
+
+
+        .newsletters{
+                                position: relative;
+                                font-size: 25px;
+                                line-height: 48px;
+                                margin: 0;
+                                padding: 0;
+                                display: grid;
+                                justify-content: center;
+                                align-items: center;
+                                top: 20px;
+                                text-align: center;}
+
+        .texto-newsletters{
+                                font-size: 12px;
+                                margin: 0;
+                                padding: 10px;
+                                margin: auto;
+                                text-align: center;
+                                margin-top: 20px;}
+
+        .button-incricao{                       visibility:hidden;
+                                margin-left: 64%;
+                                text-align: center;
+                                width: 90px;
+                                margin-top: 10px;
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;}   
+
+        .logo-lilas{            
+                                visibility: hidden;
+                                display: grid;
+                                align-items: center;
+                                justify-content: right;
+                                margin-top: 10px;
+                                margin-left: 10px;
+                                }
+
+        .logo-lilas img{        width: 70%;}
+
+        #inicio-home-footer{
+                                top: -500px;
+                                clear: both;
+                                padding-top: 50px;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 30px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;}
+
+        .button-meta{
+                                visibility: hidden;
+                                position: relative;
+                                top: 90%;
+                                margin-left: 40%;
+                                text-align: center;
+                                width: 90px;
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;}  
+
+        .texto-requisitos h1{
+                                font-size: 20px;
+                                align-items: center;
+                                text-align: center;
+                                display: flex;
+                                margin-left: -20px;
+                                justify-content: center;}
+
+        .texto-requisitos p{
+                                margin-top: 15px;
+                                padding-bottom: 20px;
+                                font-size: 15px;
+                                align-items: center;
+                                text-align: center;
+                                display: flex;
+                                margin-left: -20px;
+                                justify-content: center;}
+
+        .texto-requisitos hr{
+                                margin-top: 10px;
+                                height: 5px;
+                                margin: auto;
+                                margin-left: 16%;
+                                display:flex;
+                                text-align: center;
+                                justify-content: center;
+                                align-items: center;}
+    }

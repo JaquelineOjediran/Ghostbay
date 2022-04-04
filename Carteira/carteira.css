@@ -1,0 +1,518 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family: Riviera;
+    src: url(../fonts/Riviera.otf);
+    }
+    
+    @font-face {
+    font-family: Azonix;
+    src: url(../fonts/Azonix.otf)
+    }
+
+body{
+    background-color: #161A26;
+
+   
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 20px;
+   
+    
+}
+#conectarcarteira{
+    margin-right:100px;
+    width: 188.12px;
+    height: 50.65px;
+    background: #D0D5F2;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin-right: 2px;
+
+}
+
+
+
+
+
+nav img{
+    margin-left:20px;
+}
+
+#avisocarteira{
+    position: relative;
+margin-top:170px;
+margin-left:80px;
+width: 40%;
+height: 450px;
+background: #D0D5F2;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5)
+}
+
+.aviso{
+    margin-left:25px;
+    margin-top: 15px;
+}
+
+#conectarcarteira a{
+text-decoration: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #161A26;
+}
+
+#avisocarteira h1{
+margin-top:20px;
+margin-left: 25px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 60px;
+color: #161A26;
+}
+
+#avisocarteira p{
+    margin-left:30px;
+    margin-top: 25px;
+    width: 200.71px;
+    height: 55.04px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(22, 26, 38, 0.56);
+}
+
+#conectardark{
+    margin-left: 20px;
+    margin-top: 70px;
+    width: 188.12px;
+    height: 65px;
+    background: #161A26;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin-right: 2px;
+
+}
+
+#conectardark a{
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #D0D5F2;
+    }
+
+#cardcarteira{
+   
+    position: relative;
+    float:right;
+    margin-top: -462px;
+   
+    
+
+
+}
+
+
+
+/* footer */
+
+#footer-all {
+    background-color: #161A26;
+    width: 100%;
+    margin-top: 350px;
+    height:350px;
+    
+    
+    }
+    
+    #social-mob {
+    display: none;
+    }
+    
+    .background-grego {
+    position: relative;
+    float: right;
+    width: 306.23px;
+    margin-top: -130px;
+    }
+    
+    .newsletters {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    color: #D0D5F2;
+    margin-left: 65px;
+    }
+    
+    .texto-newsletters {
+    width: 190.52px;
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.05em;
+    color: #D0D5F2;
+    margin-left: 65px;
+    }
+    
+    .button-incricao {
+    position: relative;
+    width: 147.58px;
+    height: 58.12px;
+    background-color: #161A26;
+    border: 1px #D0D5F2 solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    right: 60px;
+    }
+    
+    .button-incricao a {
+    color: #D0D5F2;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #D0D5F2;
+    }
+    
+    .logo-lilas {
+    float: left;
+    margin-left: 60px;
+    margin-top: 150px;
+    }
+    
+    #inicio-home-footer {
+    position: relative;
+    top: -385px;
+    clear: both;
+    padding-top: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D0D5F2;
+    }
+    
+    .home-footer a {
+    margin: 0 10px;
+    color: #D0D5F2;
+    }
+    
+    .artistas-footer a {
+    margin: 0 10px;
+    color: #D0D5F2;
+    }
+    
+    .button-meta {
+    width: 147.58px;
+    height: 48.12px;
+    border: 1px solid #D0D5F2;
+    border-radius: 20px;
+    background-color: #161A26;
+    position: relative;
+    display: block;
+    margin: auto;
+    clear: both;
+    top: -80PX;
+    }
+    
+    #social {
+    position: relative;
+    top: 180px;
+    float: right;
+    left: 300px;
+    }
+    
+    #social a {
+    margin: 10px;
+    }
+    
+    .button-meta a {
+    color: #D0D5F2;
+    }
+    
+
+    @media (max-width:768px){
+          
+    #footer-all {
+        height: auto;
+    }
+    
+    #social {
+        display: none;
+    }
+    
+    #social-mob {
+        display: block;
+        display: grid;
+        align-items: center;
+        justify-content: right;
+        margin-top: -300px;
+        margin-right: 20px;
+    }
+    
+    .background-grego {
+        display: none;
+    }
+    
+    
+    .newsletters {
+        position: relative;
+        font-size: 30px;
+        line-height: 48px;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        top: 50px;
+    
+    }
+    
+    .texto-newsletters {
+        font-size: 20px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .button-incricao {
+        display: block;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+    
+    .logo-lilas {
+    
+        display: grid;
+        align-items: center;
+        justify-content: right;
+        margin-top: 100px;
+        margin-right:  20px;
+    }
+    
+    #inicio-home-footer {
+        position: relative;
+        top: -500px;
+        clear: both;
+        padding-top: 50px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #D0D5F2;
+    }
+    
+    .button-meta {
+        width: 147.58px;
+        height: 48.12px;
+        border: 1px solid #D0D5F2;
+        border-radius: 20px;
+        background-color: #161A26;
+        position: relative;
+        display: block;
+        margin: auto;
+        clear: both;
+        top: 10;
+    }
+    
+        #cardcarteira{
+            display: none;
+        }
+
+        #avisocarteira{
+            width:80%;
+        }
+    } 
+
+
+    @media (max-width:481px) {
+      
+    #footer-all {
+        height: auto;
+    }
+    
+    #social {
+        display: none;
+    }
+    
+    #social-mob {
+        display: block;
+        display: grid;
+        align-items: center;
+        justify-content: right;
+        margin-top: -300px;
+        margin-right: 20px;
+    }
+    
+    .background-grego {
+        display: none;
+    }
+    
+    
+    .newsletters {
+        position: relative;
+        font-size: 30px;
+        line-height: 48px;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        top: 50px;
+    
+    }
+    
+    .texto-newsletters {
+        font-size: 20px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .button-incricao {
+        display: block;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+    
+    .logo-lilas {
+     visibility: hidden;
+    
+    }
+    
+    #inicio-home-footer {
+        position: relative;
+        top: -500px;
+        clear: both;
+        padding-top: 50px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #D0D5F2;
+    }
+    
+    .button-meta {
+        width: 147.58px;
+        height: 48.12px;
+        border: 1px solid #D0D5F2;
+        border-radius: 20px;
+        background-color: #161A26;
+        position: relative;
+        display: block;
+        margin: auto;
+        clear: both;
+        top: 10;
+    }
+    
+    #conectarcarteira{display: none;}
+
+    .aviso{
+        margin: 0;
+        margin:auto;
+        margin-top: 30px;
+   
+    }
+#avisocarteira{
+    width: 100%;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+#avisocarteira p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+    text-align: center;
+}
+
+#conectardark{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
+
+
+#cardcarteira{
+    display:none
+}
+
+}
+        

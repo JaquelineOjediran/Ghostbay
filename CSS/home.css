@@ -1,0 +1,977 @@
+/* css reset */
+
+* {
+margin: 0;
+padding: 0;
+border: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+@font-face {
+font-family: Riviera;
+src: url(../fonts/Riviera.otf);
+}
+
+@font-face {
+font-family: Azonix;
+src: url(../fonts/Azonix.otf)
+}
+
+body {
+background-color: #D0D5F2;
+}
+
+main {
+height: auto;
+width: 100%;
+}
+
+/* cabeçalho mobile e tablet  */
+
+#nav {
+display: none;
+
+}
+
+#nav a {
+color: #D0D5F2;
+text-decoration: none;
+font-family: sans-serif;
+}
+
+#nav a:hover {
+background: rgba(0, 0, 0, 0.05);
+}
+
+#header {
+margin-top: 20px;
+float: right;
+}
+
+#menu-mob {
+display: flex;
+list-style: none;
+gap: 0.5rem;
+display: none;
+
+}
+
+#menu-mob a {
+display: block;
+padding: 0.5rem;
+}
+
+#btn-mobile {
+display: none;
+}
+
+
+
+/* cabeçalho */
+#menu-mobile img {
+margin: 20px;
+
+}
+
+#menu-mobile {
+display: none;
+display: grid;
+align-items: center;
+
+
+}
+
+#btn-mobile {
+display: none;
+}
+
+#header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+#cabecalho {
+width: 100%;
+height: 0px;
+}
+
+.logo-home {
+margin-top: 10px;
+
+margin-left: 1%;
+}
+
+.ghost-name {
+position: relative;
+font-family: 'Riviera';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.52em;
+color: #171B27;
+margin: 0 auto;
+bottom: 95px;
+}
+
+.artistas a {
+color: #000000;
+}
+
+.artistas {
+font-family: 'Baloo 2';
+float: right;
+text-align: center;
+bottom: 115px;
+right: 7%;
+position: relative;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+font-family: 'Baloo Tammudu 2';
+}
+
+.inicio a {
+color: black
+}
+
+.inicio {
+font-family: 'Baloo 2';
+float: right;
+text-align: center;
+bottom: 115px;
+position: relative;
+font-style: normal;
+right: 5%;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+font-family: 'Baloo Tammudu 2';
+}
+
+.texto-button {
+font-family: 'Baloo Tammudu 2';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 33px;
+color: #171B27;
+}
+
+.botao-carteira {
+float: right;
+position: relative;
+bottom: 120px;
+right: 3%;
+width: 84.07px;
+height: 24.06px;
+background: linear-gradient(90deg, #B629F2 -67.86%, #D0D5F2 102.89%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+
+/* CAPA */
+
+#foto-capa {
+background-image: url("/imagens/sombra\ -capa.png");
+background-color: #D0D5F2;
+width: 100%;
+height: auto;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.textotop {
+padding-top: 100px;
+font-family: lato;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+color: #09031F;
+margin: 0 auto;
+}
+
+.titulo-meio {
+font-family: 'Azonix';
+width: 370.11px;
+height: 91.04px;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 50px;
+text-align: center;
+color: #09031F;
+margin: auto;
+}
+
+.fundo-da-caveira {
+padding-top: 50px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/* NFT PAGE */
+
+#nfts-part {
+position: relative;
+width: 100%;
+height: 630.05px;
+background: linear-gradient(180deg, #161A26 95.83%, rgba(22, 26, 38, 0.625156) 99.99%, #D0D5F2 100%);
+}
+
+.tittle-nft {
+padding-top: 150px;
+margin-left: 50px;
+width: 171.3px;
+height: 53.6px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 72px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.texto-nft {
+width: 487.62px;
+max-width: 40%;
+margin-left: 70px;
+margin-top: 100.06px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.Comprar-acesso {
+position: relative;
+width: 171.9px;
+left: 70px;
+height: 39.46px;
+top: 50px;
+background: linear-gradient(90deg, #161A26 -67.86%, #B629F2 102.89%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.acesso-button {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.imagemrobo {
+float: right;
+width: 696.94px;
+margin-top: -200px;
+}
+
+.tittle-sellers {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.05em;
+color: #171B27;
+padding: 20px
+}
+
+
+/* seller  */
+
+#top-sellers {
+display: grid;
+place-items: center;
+width: 100%;
+background-color: #D0D5F2;
+padding-bottom: 100px;
+}
+
+#items-wrapper {
+width: 80vh;
+}
+
+#item::-webkit-scrollbar {
+width: 0.5rem;
+
+}
+
+#item::-webkit-scrollbar-thumb {
+background-color: #161A26;
+border-radius: 30px;
+}
+
+#item {
+display: flex;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+-webkit-overflow-scrolling: smooth;
+scroll-behavior: smooth;
+}
+
+.item {
+padding: 10px;
+flex: none;
+height: 428.56px;
+scroll-snap-align: start;
+pointer-events: none;
+}
+
+.item img {
+object-fit: cover;
+height: 100%;
+}
+
+
+/* footer */
+
+#footer-all {
+background-color: #161A26;
+width: 100%;
+height: 365px;
+}
+
+#social-mob {
+display: none;
+}
+
+.background-grego {
+position: relative;
+float: right;
+width: 306.23px;
+margin-top: -130px;
+}
+
+.newsletters {
+padding-top: 20px;
+margin-left: 20px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.05em;
+color: #D0D5F2;
+margin-left: 65px;
+}
+
+.texto-newsletters {
+width: 190.52px;
+margin-top: 10px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: -0.05em;
+color: #D0D5F2;
+margin-left: 65px;
+}
+
+.button-incricao {
+position: relative;
+width: 147.58px;
+height: 58.12px;
+background-color: #161A26;
+border: 1px #D0D5F2 solid;
+border-radius: 20px;
+margin-top: 50px;
+right: 60px;
+}
+
+.button-incricao a {
+color: #D0D5F2;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #D0D5F2;
+}
+
+.logo-lilas {
+float: left;
+margin-left: 60px;
+margin-top: 150px;
+}
+
+#inicio-home-footer {
+position: relative;
+top: -385px;
+clear: both;
+padding-top: 50px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #D0D5F2;
+}
+
+.home-footer a {
+margin: 0 10px;
+color: #D0D5F2;
+}
+
+.artistas-footer a {
+margin: 0 10px;
+color: #D0D5F2;
+}
+
+.button-meta {
+width: 147.58px;
+height: 48.12px;
+border: 1px solid #D0D5F2;
+border-radius: 20px;
+background-color: #161A26;
+position: relative;
+display: block;
+margin: auto;
+clear: both;
+top: -80PX;
+}
+
+#social {
+position: relative;
+top: 180px;
+float: right;
+left: 300px;
+}
+
+#social a {
+margin: 10px;
+}
+
+.button-meta a {
+color: #D0D5F2;
+}
+
+
+
+/* tablet  */
+
+@media (max-width:480px) {
+
+
+#header img {
+display: block;
+}
+
+#menu-mob img {
+display: block;
+margin: 0;
+padding: 0;
+margin: auto;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#nav {
+
+display: block;
+}
+
+#cabecalho {
+display: none;
+}
+
+#menu-mob {
+display: block;
+position: absolute;
+width: 100%;
+top: 70px;
+right: 0px;
+background: #161A26;
+
+transition: 0.6s;
+z-index: 1000;
+height: 0px;
+visibility: hidden;
+overflow-y: hidden;
+}
+
+#nav.active #menu-mob {
+height: calc(50vh - 70px);
+visibility: visible;
+overflow-y: auto;
+}
+
+#menu-mob a {
+padding: 1rem 0;
+margin: 0 1rem;
+border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+#btn-mobile {
+display: flex;
+padding: 0.5rem 1rem;
+font-size: 1rem;
+border: none;
+background: none;
+cursor: pointer;
+gap: 0.5rem;
+}
+
+#hamburger {
+border-top: 2px solid;
+width: 20px;
+}
+
+#hamburger::after,
+#hamburger::before {
+content: '';
+display: block;
+width: 20px;
+height: 2px;
+background: currentColor;
+margin-top: 5px;
+transition: 0.3s;
+position: relative;
+}
+
+#nav.active #hamburger {
+border-top-color: transparent;
+}
+
+#nav.active #hamburger::before {
+transform: rotate(135deg);
+}
+
+#nav.active #hamburger::after {
+transform: rotate(-135deg);
+top: -7px;
+}
+
+
+
+.textotop {
+font-size: 15px;
+
+}
+
+.titulo-meio {
+margin:auto;
+font-size: 25px;
+margin-top: -10px;
+text-align: center;
+
+color: #09031F;
+}
+
+.fundo-da-caveira {
+width: 100%;
+}
+
+.tittle-nft {
+width: 100%;
+margin: 0;
+padding: 0;
+padding-top: 5px;
+font-size: 30px;
+}
+
+.texto-nft {
+text-align: center;
+max-width: 80%;
+
+display: block;
+align-items: center;
+justify-content: center;
+margin: auto;
+text-align: left;
+margin-top: 20px;
+}
+
+.Comprar-acesso {
+margin: 0;
+padding: 0;
+top: 0;
+left: 0;
+display: block;
+align-items: center;
+justify-content: center;
+margin: auto;
+margin-top: 20px;
+}
+
+.imagemrobo {
+clear: both;
+width: 50%;
+margin:0;
+float: right;
+}
+
+#nfts-part {
+height: 500px;
+}
+
+
+
+#items-wrapper {
+max-width: 45vh;}
+
+#footer-all {
+height: auto;
+
+}
+
+#social {
+display:none;
+}
+
+
+
+
+
+
+.background-grego {
+display: none;
+}
+
+
+.newsletters {
+position: relative;
+font-size: 30px;
+line-height: 48px;
+margin: 0;
+padding: 0;
+display: grid;
+justify-content: center;
+align-items: center;
+top: 50px;
+
+}
+
+.texto-newsletters {
+font-size: 20px;
+display: block;
+margin: 0;
+padding: 0;
+margin: auto;
+text-align: center;
+margin-top: 50px;
+}
+
+.button-incricao {
+display: block;
+margin: 0;
+padding: 0;
+right: 0;
+margin: auto;
+text-align: center;
+margin-top: 20px;
+
+}
+
+.logo-lilas {
+
+display:flex;
+align-items: center;
+justify-content: left;
+margin: 0;
+margin-left: 30px;
+}
+
+#inicio-home-footer {
+position: relative;
+top: -410px;
+clear: both;
+padding-top: 50px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #D0D5F2;
+margin: 0;
+}
+
+.button-meta {
+width: 147.58px;
+height: 48.12px;
+border: 1px solid #D0D5F2;
+border-radius: 20px;
+background-color: #161A26;
+position: relative;
+display: block;
+margin: auto;
+clear: both;
+top: 10;
+margin-top: 100px;
+}
+
+#social-mob {
+  
+    display: grid;
+    align-items: right;
+    justify-content: right;
+    margin-top: -300px;
+    margin-right: 50px;
+  float: right;
+    }
+    
+
+}
+
+
+
+@media (min-width:481px) {
+@media (max-width:1100px) {
+
+
+#header img {
+    display: block;
+}
+
+#menu-mob img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+#social-mob {
+  
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    margin-top: -300px;
+    margin-right: 30px;
+  
+    }
+#nav {
+
+    display: block;
+}
+
+#cabecalho {
+    display: none;
+}
+
+#menu-mob {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #161A26;
+
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+#nav.active #menu-mob {
+    height: calc(50vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+}
+
+#menu-mob a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+#btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+#hamburger {
+    border-top: 2px solid;
+    width: 20px;
+}
+
+#hamburger::after,
+#hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+}
+
+#nav.active #hamburger {
+    border-top-color: transparent;
+}
+
+#nav.active #hamburger::before {
+    transform: rotate(135deg);
+}
+
+#nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+.fundo-da-caveira {
+
+    width: 80%;
+}
+
+.tittle-nft {
+    font-size: 40PX;
+    padding-top: 90px;
+}
+
+#items-wrapper {
+    width: 45vh;
+}
+
+#nfts-part {
+    height: 500px;
+}
+
+.texto-nft {
+    width: 100%;
+    margin-top: 100px;
+    font-size: 15px;
+}
+
+.imagemrobo {
+    float: right;
+    width: 50%;
+    margin-top: -80px;
+
+}
+
+#footer-all {
+    height: auto;
+
+}
+
+#social {
+    display: none;
+}
+
+#social-mob {
+    display: block;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    margin-top: -300px;
+    margin-right: 20px;
+}
+
+.background-grego {
+    display: none;
+}
+
+
+.newsletters {
+    position: relative;
+    font-size: 30px;
+    line-height: 48px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+
+}
+
+.texto-newsletters {
+    font-size: 20px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-incricao {
+    display: block;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.logo-lilas {
+
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    margin-top: 100px
+}
+
+#inicio-home-footer {
+    position: relative;
+    top: -500px;
+    clear: both;
+    padding-top: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D0D5F2;
+}
+
+.button-meta {
+    width: 147.58px;
+    height: 48.12px;
+    border: 1px solid #D0D5F2;
+    border-radius: 20px;
+    background-color: #161A26;
+    position: relative;
+    display: block;
+    margin: auto;
+    clear: both;
+    top: 10;
+}
+
+
+
+}
+
+}

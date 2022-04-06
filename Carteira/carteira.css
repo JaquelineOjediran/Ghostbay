@@ -20,7 +20,15 @@ body{
    
 
 }
-
+body::-webkit-scrollbar {
+    width: 0.5rem;
+    
+    }
+    
+    body::-webkit-scrollbar-thumb {
+    background-color: #161A26;
+    border-radius: 30px;
+    }
 a{
     text-decoration: none;
 }

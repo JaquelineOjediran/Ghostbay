@@ -19,7 +19,15 @@
 body {
     background-color: #D0D5F2;
 }
-
+body::-webkit-scrollbar {
+    width: 0.5rem;
+    
+    }
+    
+    body::-webkit-scrollbar-thumb {
+    background-color: #161A26;
+    border-radius: 30px;
+    }
 main {
     height: auto;
     width: 100%;
